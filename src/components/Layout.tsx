@@ -89,15 +89,9 @@ export function Layout() {
               <Link
                 to="/"
                 className="app-region-no-drag"
-                style={{ marginTop: 10, padding: 4 }}
+                style={{ marginTop: 10, padding: 4, textDecoration: 'none' }}
               >
-                <LogoText
-                  style={{
-                    height: 22,
-                    color: "#27B882",
-                    display: "block",
-                  }}
-                />
+                <LogoText />
               </Link>
               <MediaQuery largerThan="md" styles={{ display: "none" }}>
                 <Burger
