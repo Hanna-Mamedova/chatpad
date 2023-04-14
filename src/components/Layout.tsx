@@ -89,7 +89,7 @@ export function Layout() {
               <Link
                 to="/"
                 className="app-region-no-drag"
-                style={{ marginTop: 10, padding: 4, textDecoration: 'none' }}
+                style={{ marginTop: 10, padding: 4, textDecoration: "inherit", color: "inherit" }}
               >
                 <LogoText />
               </Link>
