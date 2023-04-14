@@ -212,7 +212,7 @@ export function Layout() {
               <Tooltip label="Source Code">
                 <ActionIcon
                   component="a"
-                  href="https://github.com/deiucanta/chatpad"
+                  href="https://github.com/serp-ai"
                   target="_blank"
                   sx={{ flex: 1 }}
                   size="xl"
@@ -223,7 +223,7 @@ export function Layout() {
               <Tooltip label="Follow on Twitter">
                 <ActionIcon
                   component="a"
-                  href="https://twitter.com/deiucanta"
+                  href="https://twitter.com/serpdotai"
                   target="_blank"
                   sx={{ flex: 1 }}
                   size="xl"
@@ -234,12 +234,12 @@ export function Layout() {
               <Tooltip label="Give Feedback">
                 <ActionIcon
                   component="a"
-                  href="https://feedback.chatpad.ai"
+                  href="https://discord.com/invite/vyRhPakT24"
                   onClick={(event) => {
                     if (window.todesktop) {
                       event.preventDefault();
                       window.todesktop.contents.openUrlInBrowser(
-                        "https://feedback.chatpad.ai"
+                        "https://discord.com/invite/vyRhPakT24"
                       );
                     }
                   }}
