@@ -231,7 +231,7 @@ export function Layout() {
                   <IconBrandTwitter size={20} />
                 </ActionIcon>
               </Tooltip>
-              <Tooltip label="Give Feedback">
+              <Tooltip label="Discord">
                 <ActionIcon
                   component="a"
                   href="https://discord.com/invite/vyRhPakT24"
