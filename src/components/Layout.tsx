@@ -234,12 +234,12 @@ export function Layout() {
               <Tooltip label="Discord">
                 <ActionIcon
                   component="a"
-                  href="https://discord.com/invite/vyRhPakT24"
+                  href="https://devin.to/discord"
                   onClick={(event) => {
                     if (window.todesktop) {
                       event.preventDefault();
                       window.todesktop.contents.openUrlInBrowser(
-                        "https://discord.com/invite/vyRhPakT24"
+                        "https://devin.to/discord"
                       );
                     }
                   }}
