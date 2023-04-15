@@ -30,7 +30,7 @@ export function IndexRoute() {
         <Container size="sm">
           <Badge mb="lg">GPT-4 Ready</Badge>
           <Text>
-            <Logo />
+            <Logo style={{fontSize: "1.8rem" }} />
           </Text>
           <Text mt={4} size="xl">
             Not just another ChatGPT user-interface!

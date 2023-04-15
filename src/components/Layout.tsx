@@ -37,7 +37,7 @@ import { useChatId } from "../hooks/useChatId";
 import { Chats } from "./Chats";
 import { CreatePromptModal } from "./CreatePromptModal";
 import { DatabaseModal } from "./DatabaseModal";
-import { LogoText } from "./Logo";
+import { Logo } from "./Logo";
 import { Prompts } from "./Prompts";
 import { SettingsModal } from "./SettingsModal";
 
@@ -91,7 +91,7 @@ export function Layout() {
                 className="app-region-no-drag"
                 style={{ marginTop: 10, padding: 4, textDecoration: "inherit", color: "inherit" }}
               >
-                <LogoText />
+                <Logo />
               </Link>
               <MediaQuery largerThan="md" styles={{ display: "none" }}>
                 <Burger
